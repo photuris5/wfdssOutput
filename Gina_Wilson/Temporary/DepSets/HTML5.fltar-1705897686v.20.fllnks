@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="false"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TemplatePages/Other-Topics.flmsp" />
+    <Link
+      Url="Content/Home.htm" />
+    <Link
+      Url="Project/TOCs/Online.fltoc" />
+    <Link
+      Url="Project/Skins/Side-Navigation.flskn" />
+    <Link
+      Url="../../Program Files/MadCap Software/MadCap Flare 18/Flare.app/Resources/English/Destinations/Central.fldes" />
+    <Link
+      Url="Project/ConditionTagSets/Default.flcts" />
+  </Links>
+  <LongLinks />
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

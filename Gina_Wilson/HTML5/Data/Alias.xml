@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="COLLABORATING_AGENCY" Link="50-MicroContent/51-Incidents/Collaborating-Agency.htm" Skin="CSH-Skin" ResolvedId="1000" />
+    <Map Name="CONTAINED_DATE_TIME" Link="50-MicroContent/51-Incidents/Contained-Date-Time.htm" Skin="CSH-Skin" ResolvedId="1001" />
+    <Map Name="CONTROLLED_DATE_TIME" Link="50-MicroContent/51-Incidents/Controlled-Date-Time.htm" Skin="CSH-Skin" ResolvedId="1002" />
+    <Map Name="CURRENT_SIZE" Link="50-MicroContent/51-Incidents/Current-Size.htm" Skin="CSH-Skin" ResolvedId="1003" />
+    <Map Name="DISCOVERY_DATE_TIME" Link="50-MicroContent/51-Incidents/Discovery-Date-Time.htm" Skin="CSH-Skin" ResolvedId="1004" />
+    <Map Name="DISPATCH_CENTER" Link="50-MicroContent/51-Incidents/Dispatch-Center.htm" Skin="CSH-Skin" ResolvedId="1005" />
+    <Map Name="EXPORT" Link="50-MicroContent/51-Incidents/Export.htm" Skin="CSH-Skin" ResolvedId="1006" />
+    <Map Name="FIRE_CODE" Link="50-MicroContent/51-Incidents/Fire-Code.htm" Skin="CSH-Skin" ResolvedId="1007" />
+    <Map Name="FS_JOB_CODE" Link="50-MicroContent/51-Incidents/FS-Job-Code.htm" Skin="CSH-Skin" ResolvedId="1008" />
+    <Map Name="GAC" Link="50-MicroContent/51-Incidents/GAC.htm" Skin="CSH-Skin" ResolvedId="1009" />
+    <Map Name="INCIDENT_NAME" Link="50-MicroContent/51-Incidents/Incident-Name.htm" Skin="CSH-Skin" ResolvedId="1010" />
+    <Map Name="JURISDICTIONAL_UNIT_AT_ORIGIN" Link="50-MicroContent/51-Incidents/Jurisdictional-Unit-at-Origin.htm" Skin="CSH-Skin" ResolvedId="1011" />
+    <Map Name="LANDOWNER_CATEGORY" Link="50-MicroContent/51-Incidents/Landowner-Category.htm" Skin="CSH-Skin" ResolvedId="1012" />
+    <Map Name="LATITUDE" Link="50-MicroContent/51-Incidents/Latitude.htm" Skin="CSH-Skin" ResolvedId="1013" />
+    <Map Name="LEAD" Link="50-MicroContent/51-Incidents/Lead.htm" Skin="CSH-Skin" ResolvedId="1014" />
+    <Map Name="LONGITUDE" Link="50-MicroContent/51-Incidents/Longitude.htm" Skin="CSH-Skin" ResolvedId="1015" />
+    <Map Name="OUT_DATE_TIME" Link="50-MicroContent/51-Incidents/Out-Date-Time.htm" Skin="CSH-Skin" ResolvedId="1016" />
+    <Map Name="PROTECTING_UNIT_AT_ORIGIN" Link="50-MicroContent/51-Incidents/Protecting-Unit-at-Origin.htm" Skin="CSH-Skin" ResolvedId="1017" />
+    <Map Name="UNIQUE_FIRE_ID" Link="50-MicroContent/51-Incidents/Unique-Fire-ID.htm" Skin="CSH-Skin" ResolvedId="1018" />
+    <Map Name="INCIDENT_SEARCH_EXPORT_BUTTON" Link="50-MicroContent/51-Incidents/Incident-Search-Export-Button.htm" Skin="CSH-Skin" ResolvedId="1019" />
+    <Map Name="BARRIERS_TO_FIRE_SPREAD" Link="50-MicroContent/52-Relative-Risk/Barriers-to-Fire-Spread.htm" Skin="CSH-Skin" ResolvedId="1020" />
+    <Map Name="FIRE_BEHAVIOR" Link="50-MicroContent/52-Relative-Risk/Fire-Behavior.htm" Skin="CSH-Skin" ResolvedId="1021" />
+    <Map Name="FUEL_CONDITIONS" Link="50-MicroContent/52-Relative-Risk/Fuel-Conditions.htm" Skin="CSH-Skin" ResolvedId="1022" />
+    <Map Name="INFRASTRUCTURE_NATURAL_SOCIAL_CONCERNS" Link="50-MicroContent/52-Relative-Risk/Infrastructure-Natural-Social-Concerns.htm" Skin="CSH-Skin" ResolvedId="1023" />
+    <Map Name="POTENTIAL_FIRE_GROWTH" Link="50-MicroContent/52-Relative-Risk/Potential-Fire-Growth.htm" Skin="CSH-Skin" ResolvedId="1024" />
+    <Map Name="PROXIMITY_AND_THREAT_OF_FIRE_VALUES" Link="50-MicroContent/52-Relative-Risk/Proximity-and-Threat-of-Fire-Values.htm" Skin="CSH-Skin" ResolvedId="1025" />
+    <Map Name="RELATIVE_RISK_RATINGS" Link="50-MicroContent/52-Relative-Risk/Relative-Risk-Ratings.htm" Skin="CSH-Skin" ResolvedId="1026" />
+    <Map Name="SEASONAL_SEVERITY" Link="50-MicroContent/52-Relative-Risk/Seasonal-Severity.htm" Skin="CSH-Skin" ResolvedId="1027" />
+    <Map Name="SOCIAL_ECONOMIC_CONCERNS" Link="50-MicroContent/52-Relative-Risk/Social-Economic-Concerns.htm" Skin="CSH-Skin" ResolvedId="1028" />
+    <Map Name="TIME_OF_SEASON" Link="50-MicroContent/52-Relative-Risk/Time-of-Season.htm" Skin="CSH-Skin" ResolvedId="1029" />
+    <Map Name="EXTERNAL_INFLUENCES" Link="50-MicroContent/53-Organization/External-Influences.htm" Skin="CSH-Skin" ResolvedId="1030" />
+    <Map Name="FUNCTIONAL_CONCERNS" Link="50-MicroContent/53-Organization/Functional-Concerns.htm" Skin="CSH-Skin" ResolvedId="1031" />
+    <Map Name="INCIDENT_STRATEGIES" Link="50-MicroContent/53-Organization/Incident-Strategies.htm" Skin="CSH-Skin" ResolvedId="1032" />
+    <Map Name="OBJECTIVE_CONCERNS" Link="50-MicroContent/53-Organization/Objective-Concerns.htm" Skin="CSH-Skin" ResolvedId="1033" />
+    <Map Name="OWNERSHIP_CONCERNS" Link="50-MicroContent/53-Organization/Ownership-Concerns.htm" Skin="CSH-Skin" ResolvedId="1034" />
+    <Map Name="POTENTIAL_FIRE_DURATION" Link="50-MicroContent/53-Organization/Potential-Fire-Duration.htm" Skin="CSH-Skin" ResolvedId="1035" />
+    <Map Name="RECOMMENDED_ORGANIZATION" Link="50-MicroContent/53-Organization/Recommended-Organization.htm" Skin="CSH-Skin" ResolvedId="1036" />
+    <Map Name="FUNCTIONAL_COMPLEXITY_COMMAND" Link="50-MicroContent/54-Functional-Complexity/Functional-Complexity-Command.htm" Skin="CSH-Skin" ResolvedId="1037" />
+    <Map Name="FUNCTIONAL_COMPLEXITY_FINANACE" Link="50-MicroContent/54-Functional-Complexity/Functional-Complexity-Finanace.htm" Skin="CSH-Skin" ResolvedId="1038" />
+    <Map Name="FUNCTIONAL_COMPLEXITY_LOGISTICS" Link="50-MicroContent/54-Functional-Complexity/Functional-Complexity-Logistics.htm" Skin="CSH-Skin" ResolvedId="1039" />
+    <Map Name="FUNCTIONAL_COMPLEXITY_OPERATIONS_AIR_OPERATIONS" Link="50-MicroContent/54-Functional-Complexity/Functional-Complexity-Operations-Air-Operations.htm" Skin="CSH-Skin" ResolvedId="1040" />
+    <Map Name="FUNCTIONAL_COMPLEXITY_PLANNING" Link="50-MicroContent/54-Functional-Complexity/Functional-Complexity-Planning.htm" Skin="CSH-Skin" ResolvedId="1041" />
+</CatapultAliasFile>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalImportedFilesCache
+  SavedSource="file:///C:/Flare/WFDSS/Output/Gina_Wilson/Temporary/GlobalImportedFilesSet v.1.xml">
+  <ImportedMap>
+    <Map
+      Local="Project/VariableSets/sf_Models.flvar"
+      Remote="../sharedFire/Project/VariableSets/sf_Models.flvar" />
+    <Map
+      Local="Content/sf_Topics/sf_feature.htm"
+      Remote="../sharedFire/Content/sf_Topics/sf_feature.htm" />
+    <Map
+      Local="Content/sf_Topics/sf_Feature2.htm"
+      Remote="../sharedFire/Content/sf_Topics/sf_Feature2.htm" />
+    <Map
+      Local="Content/sf_Topics/sf_Feature3.htm"
+      Remote="../sharedFire/Content/sf_Topics/sf_Feature3.htm" />
+    <Map
+      Local="Content/sf_Topics/sf_Features.htm"
+      Remote="../sharedFire/Content/sf_Topics/sf_Features.htm" />
+  </ImportedMap>
+  <SourceUrls>
+    <Url
+      Source="Project/Imports/sharedFire.flimpfl" />
+  </SourceUrls>
+</CatapultGlobalImportedFilesCache>

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="AA/LO and GAE Resources|GAE Resources" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" /><title>Geographic-Area-Editor-Reference-Guide</title>
+        <!--<link href="../Stylesheets/font-awesome.css" rel="stylesheet" type="text/css" /> -->
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="https://kit.fontawesome.com/81f4b861b0.js" crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Geographic-Area-Editor-Reference-Guide</h1>
+                                        <h2>Geographic Area Editor Overview</h2>
+                                        <p>This document is a quick reference for Geographic Area Editors (GAEs). An additional resource is Appendix N of the current <a href="https://www.nifc.gov/sites/default/files/redbook-files/RedBookAll.pdf" target="_blank"><a href="" target="_blank"><a href="https://www.nifc.gov/sites/default/files/redbook-files/RedBookAll.pdf">Interagency Standards for Fire and Aviation Operation (NFES 2724)</a></a></a>.</p>
+                                        <p>Additional information can be found on the <a href="Geographic-Area-Editor-Resources.htm">GAE Resources Page</a>:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Conference Call Notes</p>
+                                            </li>
+                                            <li>
+                                                <p> After Action Reviews</p>
+                                            </li>
+                                            <li>
+                                                <p>Suggested Training and Prerequisites for Fire Behavior Specialists</p>
+                                            </li>
+                                            <li>
+                                                <p>GA Editor Calendar – scheduled training and GA Editor conference calls</p>
+                                            </li>
+                                            <li>
+                                                <p>Additional Decision Support Information and Tools</p>
+                                            </li>
+                                        </ul>
+                                        <h2>Geographic Area Editor</h2>
+                                        <p>A Geographic Area Editor MTT has author privileges and ownership of all WFDSS incidents within the geographic area (GA) he/she is assigned. A GA editor can:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Edit any WFDSS incident within their geographic area (GA).</p>
+                                            </li>
+                                            <li>
+                                                <p>Help manage shapes* associated with an incident (See Shape Privileges by User Role).* associated with an incident (See Shape Privileges by User Role).</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Draw, manipulate, or upload fire perimeters, MAPs, objective shapes, analysis ignitions, landscape masks, and barriers.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Draw or manipulate planning area or points of interestshapes.</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <p>Help manage documentation for incidents in their GA. This includes help with managing incident-level privileges.</p>
+                                            </li>
+                                            <li>
+                                                <p>Administer WFDSS accounts for users (edit user roles, disable user accounts, and so forth).</p>
+                                            </li>
+                                            <li>
+                                                <p>Create automated Basic and STFB fire behavior analysis.</p>
+                                            </li>
+                                            <li>
+                                                <p>Manage notifications for Fire Behavior Requests in order to ensure all requests are addressed.</p>
+                                            </li>
+                                            <li>
+                                                <p>Determine if a Decision Support Center (DSC) is needed during fire season, and then contact the appropriate individuals to establish a DSC.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Geographic Area Editors do not have privileges specific to Fire Behavior Analysts or Administrators.</p>
+                                        <p>Users can use the filtering function in the WFDSS Address Book to determine who the <span style="background-color: #7fff00;">Geographic Area</span>.</p>
+                                        <p>Editors are by region and/or agency. People will find you this way, so make sure your GA area is correct.</p>
+                                        <p>*The following shapes cannot be modified when a decision is in the Review and Approval process: Management Action Points, Objective Shapes, Planning Area, and Fire Perimeters</p>
+                                        <h2>Editing Incident Information</h2>
+                                        <p>As a geographic area editor, you may need assist the field and need to edit or update information about an incident as more information becomes available, or as conditions change. On the Incident Information page, you can:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Modify the Incident Name and/or Unique Fire Identifier *2</p>
+                                            </li>
+                                            <li>
+                                                <p>Modify the incident's Latitude and Longitude</p>
+                                            </li>
+                                            <li>
+                                                <p>Transferincident ownership</p>
+                                            </li>
+                                            <li>
+                                                <p>Add or modify the FireCode</p>
+                                            </li>
+                                            <li>
+                                                <p>Update Incident Size (acres) *3</p>
+                                            </li>
+                                            <li>
+                                                <p>Modify Discovery Date and/or Time</p>
+                                            </li>
+                                            <li>
+                                                <p>Add Containment Date and/or Time</p>
+                                            </li>
+                                            <li>
+                                                <p>Add Controlled Date and/or Time</p>
+                                            </li>
+                                            <li>
+                                                <p>Add Out Date and/or Time *4</p>
+                                            </li>
+                                            <li>
+                                                <p>Modify the default Landscape Data Source selected to display fuels, canopy or topographical characteristics in map displays</p>
+                                            </li>
+                                            <li>
+                                                <p>Update Incident Cause</p>
+                                            </li>
+                                            <li>
+                                                <p> Update Jurisdictional Agency</p>
+                                            </li>
+                                        </ul>
+                                        <p>Considerations:</p>
+                                        <ul>
+                                            <li>
+                                                <p>You cannot modify the Incident Name or Unique Fire Identifier when a decision has been published for an incident or the incident has been declared out.</p>
+                                            </li>
+                                            <li>
+                                                <p>You can update Incident Size (acres) manually on this page, or you can upload/save a new perimeter and its corresponding acreage will auto-populate in the Incident Size field.</p>
+                                            </li>
+                                            <li>
+                                                <p>GA Editors, Dispatchers or Incident Owners declare an incident out using this page. After declaring an incident out, the incident and its decision content are locked permanently in WFDSS and few additional edits are available. A Periodic Assessment is no longer required when an incident is declared out.</p>
+                                            </li>
+                                        </ul>
+                                        <h2>Managing Shapes (Shape Privileges)</h2>
+                                        <p>Each WFDSS User Role is associated with privileges that determine who can upload, draw, manipulate, and copy shapes. Geographic Area Editors can help manage shapes5 associated with an incident (Shape Privileges by User Role further discusses the Geographic Area Editor's role in relation to shapes). Users with this role can:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Draw, manipulate, or upload fire perimeters, MAPs, objective shapes, analysis ignitions, landscape masks, and barriers.</p>
+                                            </li>
+                                            <li>
+                                                <p>Draw or manipulate planning area or points of interestshapes.</p>
+                                            </li>
+                                        </ul>
+                                        <h2>Managing Documentation for Incidents</h2>
+                                        <p>In WFDSS, there are system-wide user roles (e.g., Author, Viewer) and incident-specific privileges (e.g., Owner, Editor, Reviewer, Approver). Incident privileges are specific to each incident.</p>
+                                        <h3>Incident Ownership</h3>
+                                        <p>Since a GA Editor owns all the incidents within their geographic area, he/she can manage incident ownership and other incident privileges. The following rules apply:</p>
+                                        <ul>
+                                            <li>
+                                                <p>An incident can be assigned to multiple owners. Multiple owners for an incident can edit the privileges of individual group members or remove an entire group without changing the Incident Owner.</p>
+                                            </li>
+                                            <li>
+                                                <p>Only Authors, GA Editors, National Editors, and Owners can assign or transfer Incident Owners. Only Incident Owners can assign incident privileges.</p>
+                                            </li>
+                                            <li>
+                                                <p>After a fire is declared out, Incident ownership can change in order to conduct further analyses and complete fire reports.</p>
+                                            </li>
+                                        </ul>
+                                        <h4>Transferring Incident Ownership</h4>
+                                        <p>Ownership is an incident-level privilege and GA Editors are automatically assigned incident ownership in their geographic area. Authors can:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Transfer ownership of an incident to another author, or</p>
+                                            </li>
+                                            <li>
+                                                <p>Transfer ownership of an incident to a group of WFDSS users that they’ve created in their address book.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Ownership of an incident may need to be transferred for a variety of reasons:</p>
+                                        <ul>
+                                            <li>
+                                                <p>The current owner is going out of town and will not be available.</p>
+                                            </li>
+                                            <li>
+                                                <p>Incident complexity is increasing and additional authors are needed to assist with decisionmaking and documentation.</p>
+                                            </li>
+                                            <li>
+                                                <p>Incident is transitioning to an incident command team or a differentteam.</p>
+                                            </li>
+                                            <li>
+                                                <p>The size of the fire requires a higher level of authority to manage it.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Only group members with Author privileges can own incidents. Members of a group that do not have author privileges can assist with document editing, review, and approval.</p>
+                                        <h3>Managing Incident-Level Privileges</h3>
+                                        <p>As owner of incidents in their GA, a geographic area editor can grant incident-specific privileges to other personnel (individuals or groups) to help with documentation of an incident.</p>
+                                        <p>Incident Privileges is also a menu option where an Incident Owner can manage incident-level privileges for an incident. Here, a GA Editor/Incident Owner can:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Assign incident-level privileges (Edit, Review, Approver) to other WFDSS users.</p>
+                                            </li>
+                                            <li>
+                                                <p>Assign incident ownership to or share incident ownership with other WFDSS users or groups.</p>
+                                            </li>
+                                            <li>
+                                                <p>Query incident privileges and ownership for an incident to determine who has privileges and what types of privileges each user has.</p>
+                                            </li>
+                                            <li>
+                                                <p>Remove privileges from WFDSS users assigned to help with decision documentation for an incident.</p>
+                                            </li>
+                                        </ul>
+                                        <p>When incident ownership is assigned to a group, a GA editor can add and modify roles for individuals in the group, and delete ownership as needed. They can also change incident ownership after declaring an incident out for reporting and analysis purposes.</p>
+                                        <h2>Administration of WFDSS User Accounts</h2>
+                                        <p>Users with Geographic Editor or Administrator roles have access to the Administration tab. The following functions are available to both of these users:</p>
+                                        <ul>
+                                            <li>
+                                                <p>View Role Requests.</p>
+                                            </li>
+                                            <li>
+                                                <p>Grant Role Requests.</p>
+                                            </li>
+                                            <li>
+                                                <p>Edit User Roles when there is a role request.</p>
+                                            </li>
+                                            <li>
+                                                <p>Group emails to all users that currently appear in the list.</p>
+                                            </li>
+                                            <li>
+                                                <p>Manage notification lists for Fire Behavior Requests and GA Summary.</p>
+                                            </li>
+                                            <li>
+                                                <p>Display Security Information for lists of 1000 users. Security information contains Last Access Date, RoB Type and RoB acceptance Date.</p>
+                                            </li>
+                                        </ul>
+                                        <h3>Viewing User Role Requests</h3>
+                                        <p>Geographic Editors and Administrators can view role requests from the Administration tab. Role requests include requests for new WFDSS accounts as well as additional user roles. The Show Role Request table provides Geographic Editors a list of users within their current Geographic Area (see Home &gt; Contact Information to verify your current GA). Administrators see all role requests in the system.</p>
+                                        <p>To view role requests:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p> Choose the Administration tab. The Administration page appears.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Click Show Role Request. The table displays the role requests available to you.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Select the user you want to view roles for.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Click Edit User. The Edit User Role page appears.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p> Review the user's information and justification.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p> If appropriate, select the User Role(s) requested by the user.</p>
+                                            </li>
+                                            <li value="7">
+                                                <p> Click Save. The user's role is updated when they log into WFDSS.</p>
+                                            </li>
+                                        </ol>
+                                        <h3>Granting User Role Requests</h3>
+                                        <p>Geographic Editors and Administrators can grant user roles. Users are usually granted the Viewer role when they request access to the application. If users are not federal employees, they are not automatically granted Viewer role. The Geographic Editor or Administrator must confirm that nonfederal users require access and have completed annual security training. The users are required to request user roles that allow them to complete their assigned tasks. For example:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Run fire behavior analyses (Fire Behavior Specialist Role)</p>
+                                            </li>
+                                            <li>
+                                                <p>Own incidents (Author Role)</p>
+                                            </li>
+                                            <li>
+                                                <p> Edit decision documents (Author Role)</p>
+                                            </li>
+                                            <li>
+                                                <p>Pre-load strategic objectives, management requirements, and unit shapes (Data Manager Role)</p>
+                                            </li>
+                                        </ul>
+                                        <p>Geographic Editors can only grant or edit the following user roles: Viewer, Dispatcher, Author, Fire Behavior Specialist and Data Manager. They can also Disable Users. Administrators can grant all user roles.</p>
+                                        <p>A user's roles can be different for Production and Training. Roles granted to a user in Production are mirrored to Training. Conversely, roles granted to a user in Training are not mirrored to Production.</p>
+                                        <h3>Editing User Roles</h3>
+                                        <p>A User Role might need to be edited for the following reasons:</p>
+                                        <ul>
+                                            <li>
+                                                <p>User requires different user roles due to a job change.</p>
+                                            </li>
+                                            <li>
+                                                <p>User needs to be disabled in the application due to retirement or otherwise leaving employment.</p>
+                                            </li>
+                                            <li>
+                                                <p>User requires a Geographic editor role (only Administrators can grant this role).</p>
+                                            </li>
+                                            <li>
+                                                <p>User is attending a training class and requires a different userrole.</p>
+                                            </li>
+                                            <li>
+                                                <p>User needs to upload shape files to incidents in their geographic area. Shape Privileges by User Role further discusses the Editors role in relation to shapes.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Contact an Administrator if a user role other than those listed above needs editing.</p>
+                                        <p><i>To edit user roles:</i>
+                                        </p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Choose the Administration tab, then do one of the following:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Choose User List. The User List table displays all users in the system for whom you are allowed to edit privileges.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Click <b>Show Role Request</b>. The User List table updates to display only the user role requests available to you.</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="2">
+                                                <p>Use the User List Filter to locate the user you want to edit.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Select the user, and then click <b>Edit User</b>. The Edit User Role page appears.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Select the appropriate User Roles for the user.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Click <b>Save</b>. The next time the selected user logs into WFDSS, their role is changed.</p>
+                                            </li>
+                                        </ol>
+                                        <h3>Sending Group Emails</h3>
+                                        <p>Administrators and Geographic Area Editors can send a group email to the WFDSS user community. The email list is set by the current user list filter. Group email messages are intended for user notifications about events, tips, WFDSS-specific GA announcements, or requests. Examples include, but are not limited to, the following:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Upcoming training</p>
+                                            </li>
+                                            <li>
+                                                <p>Major system changes</p>
+                                            </li>
+                                            <li>
+                                                <p>Geographic Editor communications to users/user groups within the geographic area</p>
+                                            </li>
+                                        </ul>
+                                        <p>Examples of emails to avoid sending:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Emails to the entire WFDSS user group</p>
+                                            </li>
+                                            <li>
+                                                <p>Forwarding feedback responses</p>
+                                            </li>
+                                            <li>
+                                                <p>Agency or National policy statements (They appear to be coming from WFDSS and not the appropriate office)</p>
+                                            </li>
+                                        </ul>
+                                        <p><i>To send group emails:</i>
+                                        </p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Choose the Administration tab and set the appropriate user list filter as the intended recipients.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Choose Group Email. The Group Email page appears.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Type the subject of the email. This should be short, but descriptive of the message contents.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Type the message you want to email to WFDSS users.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Review the message for typos, tone, and content.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>Click Send. The message is emailed to all WFDSS users selected in your filter.</p>
+                                            </li>
+                                        </ol>
+                                        <h3>Managing Notification Lists</h3>
+                                        <p>Administrators and Geographic Area Editors manage notification lists from the Administration tab. Geographic Editors have access only to the Geographic Area Summary and the Fire Behavior Requests. Administrators and GA Editors can review user accounts to determine those accounts that have not been accessed in a specified number of days. The user has the option of exporting the Notification Lists to an Excel spreadsheet.</p>
+                                        <p>There are notification lists for:</p>
+                                        <ul>
+                                            <li>
+                                                <p>FLAME Act Report</p>
+                                            </li>
+                                            <li>
+                                                <p>User Accounts</p>
+                                            </li>
+                                            <li>
+                                                <p>Other</p>
+                                            </li>
+                                            <li>
+                                                <p>Weather Related</p>
+                                            </li>
+                                            <li>
+                                                <p>Service Broker Failure</p>
+                                            </li>
+                                            <li>
+                                                <p>User Feedback</p>
+                                            </li>
+                                            <li>
+                                                <p>Decision/FLAME Act Failures</p>
+                                            </li>
+                                            <li>
+                                                <p>Geographic Area Summary</p>
+                                            </li>
+                                            <li>
+                                                <p>Oversight Summary</p>
+                                            </li>
+                                            <li>
+                                                <p>Fire Behavior Requests</p>
+                                            </li>
+                                        </ul>
+                                        <h2>Monitoring Fire Behavior Request Notifications</h2>
+                                        <p>The National Fire Decision Support Center no longer monitors Fire Behavior Request notifications. Geographic Area Editors are responsible for managing the coordination of all Fire Behavior Requests generated by WFDSS users.</p>
+                                        <p>The National Fire Decision Support Center will manually subscribe new Geographic Area Editor’s agency email to the Fire Behavior Request notifications for the geo-area listed in their profile when the Geographic Area Editor role is first assigned. GA Editors will need to adjust their notifications and contact information if they want to receive other geo-area notifications in addition to the one listed in their profile and/or if they would like to receive the notifications to alternative emails or phone numbers (i.e. text messages). Geographic Area Editors can subscribe/unsubscribe other WFDSS users to the notifications as needed for coverage of Fire Behavior Requests. </p>
+                                        <p>Geographic Area Editors needing assistance filling Fire Behavior Requests should contact the National Fire Decision Support On-Call Coordinator: 208-387-5253.</p>
+                                        <p><i>To add a user to a Notification List Type:</i>
+                                        </p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>From the Administration tab, select Notification from the left menu. The Notification Types list appears.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Click the radio button to the left of the appropriate Notification Type.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Click Open. Displays the appropriate Notification List.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Click Add. A new row displays at the top of the list.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Click the radio button to the left of the empty User ID, User Name, and Email Address row.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>In order to receive notifications to the email address and phone number stored in the contact information (see below), enter the User name and user ID. In order to receive notifications to an alternate email address, enter the User name, and alternate Email address. Do not enter both a user Id and an Email address into the same Notification line. In order to receive notifications to both the email identified in the Contact information, and an alternate email address, two notification entries must be created.</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>If you select National for Fire Behavior Request notifications, you will receive notification emails for all GA’s</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Messages are sent differently between subscribing using user ID versus email address.</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>User ID subscriptions – users subscribed this way will receive personalized emails addressed to you and your alternate email address, i.e. text number. This email contains a link to WFDSS that contains their user_id and the analysis_id.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Email Address subscriptions – users subscribed this way will receive one generic group email that only contains a link to WFDSS without their login information or a fast path to the analysis.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="7">
+                                                <p>Click Save to add the user to the Notification List or click Cancel to not save the user information.</p>
+                                            </li>
+                                            <li value="8">
+                                                <p>Click Return to go back to the Notification Type page.</p>
+                                            </li>
+                                        </ol>
+                                        <p style="font-style: italic;">To update your contact information:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Login to the appropriate WFDSS application.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Click My Home &gt; Contact Information. The Home - Contact Information page appears wit your contact information automatically populated.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Review each field and make the appropriate changes.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>To receive text messages from WFDSS, identify your cell phone carrier, then click the link "Generate alternate address from Cell Number and Carrier". The Alternate Email Address field automatically populates with your phone number and your email address ending. For example, 1234567890@vtextcom, appears as phone number 123-456-7890 for a Verizon wireless customer. The Cell Phone Carrier box defaults to &lt;select&gt; after you press the "Generate alternate address from Cell Number and Carrier" button.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Verify that your geographic area, agency, and unit are accurate.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>Click Save Profile</p>
+                                            </li>
+                                        </ol>
+                                        <p style="font-style: italic;">To edit user information in a Notification List Type:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>From the Administration tab, select Notification from the left menu. The Notification Types list appears.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Click the radio button to the left of the appropriate Notification List.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Click Open. Displays the appropriate Notification List.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Click the radio button to the left of the user row you want to edit.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Click Edit.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>Modify the information as needed.</p>
+                                            </li>
+                                            <li value="7">
+                                                <p>Click Save to save the modified user information to the Notification List or click Cancel to not save the user information.</p>
+                                            </li>
+                                            <li value="8">
+                                                <p>Click Return to go back to the Notification Type page.</p>
+                                            </li>
+                                        </ol>
+                                        <p><i>To delete a user from a Notification List Type:</i>
+                                        </p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>From the Administration tab, select Notification from the left menu. The Notification Types list appears.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Click the radio button to the left of the appropriate Notification Type.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Click Open. Displays the appropriate Notification List.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Click the radio button to the left of the user you want to delete.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Click Delete. The user information is removed from the page. You can delete one user at a time.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>Click Save to save the newly deleted user information to the Notification List, or click Cancel to undo the deletion.</p>
+                                            </li>
+                                            <li value="7">
+                                                <p>Click Return to go back to the Notification Type page.</p>
+                                            </li>
+                                        </ol>
+                                        <h2>About Images</h2>
+                                        <p>WFDSS users with the following roles can capture or upload images for use in an incident's decision:</p>
+                                        <ul>
+                                            <li>
+                                                <p>Incident Owners and Editors</p>
+                                            </li>
+                                            <li>
+                                                <p>Fire Behavior Specialists and Super Analysts</p>
+                                            </li>
+                                            <li>
+                                                <p>Dispatchers (must be assigned to the same geographic area as the incident)</p>
+                                            </li>
+                                            <li>
+                                                <p>Geographic Area Editors (must be assigned to the same geographic area as the incident)</p>
+                                            </li>
+                                        </ul>
+                                        <p>Images are tied to a specific incident, and are stored in the Images folder in the Incident Content Tree (Incident List &gt; select Incident and click View Information &gt; Incident Content Library (left panel)) This material is also available in the left panel of the Advanced Decision Editor.</p>
+                                        <h2>Analyses Related Tasks for Geographic Area Editors
+<br /></h2>
+                                        <p>Geographic Area Editors (and Incident Owners, Editors or Dispatchers) can generate WFDSS Automated 
+Basic and STFB Fire Behavior for incidents in their geographic area. In addition, they can draw, 
+manipulate, or upload analysis-related shapes such as analysis ignitions, landscape masks, and barriers.
+Since fire managers contact the local GA editors when fire behavior analysis is needed for an incident, it 
+is imperative that a GA Editor become familiar with the analysis skills with the GA area, and with the list 
+of WFDSS users that have fire behavior specialist or super analyst roles.
+The USGS Center for Earth Resources Observation and Science (EROS) currently houses the multiple 
+processing machines that run FSPro. Processing capability has increased substantially and continues to 
+do so, and prioritizing runs is no longer necessary most of the time.</p>
+                                        <h2>Litigation</h2>
+                                        <p>When Geographic Area Editors become aware of a litigation which involves analysis of fires using WFDSS, the following should be considered:</p>
+                                        <p>• Analyses of fires for litigation should occur on Production only, under the original incident, and should be created on Training. Analyses in Training are regularly purged from the system, making this an inappropriate place for the preservation of legal materials.</p>
+                                        <p>• Alert WFDSS business leads if you become aware of analysis for an active wildfire on federal lands that is occurring on Training. That needs to be on Production.</p>
+                                        <p>• Encourage commonsensical naming convention for litigation efforts, such as “litigation” in the run names with the appropriate fire name. Analysis should NOT be run under a fake fire name, or otherwise named to obscure its intent.</p>
+                                        <p>&#160;</p>
+                                        <p>&#160;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

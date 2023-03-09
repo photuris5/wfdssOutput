@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,109],m:[0],u:['../Content/00-General/Announcements.htm'],s:['1','relat'],p:[['1',64],['degrees',93],['korem',62],['resistance',110],['your',35]]});
